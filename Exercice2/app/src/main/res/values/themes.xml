@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Exercice1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Exercice1" parent="Base.Theme.Exercice1" />
+
+        <!-- Define the AppBarOverlay style -->
+    <style name="Theme.HelloWorld.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Add properties here if needed -->
+    </style>
+
+        <!-- Define the PopupOverlay style -->
+    <style name="Theme.HelloWorld.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+
+    </style>
+
+</resources>
