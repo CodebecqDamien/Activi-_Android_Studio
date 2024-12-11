@@ -1,7 +1,0 @@
-<resources>
-    <!-- Thème personnalisé qui hérite de Theme.AppCompat -->
-    <style name="Theme.Ex3" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Vous pouvez ajouter ici vos personnalisations, comme les couleurs -->
-
-    </style>
-</resources>
