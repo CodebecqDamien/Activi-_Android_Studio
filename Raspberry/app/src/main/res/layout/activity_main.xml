@@ -4,14 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="top">
+    android:background="#877F7F"
+    android:backgroundTint="#77DAE6"
+    android:gravity="top"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#5E34AA"
+        android:background="#5B0FE7"
         android:gravity="center"
         android:padding="16dp"
         android:text="Contrôle des lumières"
@@ -21,9 +23,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFB6C1"
-        android:gravity="center_vertical"
-        android:layout_marginTop="16dp">
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/border_radius"
+        android:gravity="center_vertical">
 
 
         <ImageView
@@ -40,14 +45,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:textColor="#FFFFFF"
-            android:text="Chambre" />
+            android:text="Chambre"
+            android:textColor="#FFFFFF" />
 
         <ToggleButton
             android:id="@+id/chambre"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical|end"
+            android:layout_margin="10dp"
             android:background="@drawable/arrondir"
             android:text="ToggleButton" />
 
@@ -56,9 +62,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFB6C1"
-        android:gravity="center_vertical"
-        android:layout_marginTop="16dp">
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/border_radius"
+        android:gravity="center_vertical">
 
         <ImageView
             android:id="@+id/salonimage"
@@ -69,32 +78,36 @@
             tools:visibility="gone" />
 
 
-
         <TextView
 
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:textColor="#FFFFFF"
-            android:text="Salon" />
+            android:text="Salon"
+            android:textColor="#FFFFFF" />
 
         <ToggleButton
             android:id="@+id/salon"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical|end"
+            android:layout_margin="10dp"
             android:background="@drawable/arrondir"
-            android:text="ToggleButton" />
+            android:text="ToggleButton"
+            android:textAlignment="center" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFB6C1"
-        android:gravity="center_vertical"
-        android:layout_marginTop="16dp">
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/border_radius"
+        android:gravity="center_vertical">
 
         <ImageView
             android:id="@+id/salledebainimage"
@@ -105,21 +118,21 @@
             tools:visibility="gone" />
 
 
-
         <TextView
 
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:textColor="#FFFFFF"
-            android:text="Salle de bain" />
+            android:text="Salle de bain"
+            android:textColor="#FFFFFF" />
 
         <ToggleButton
             android:id="@+id/salledebain"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical|end"
+            android:layout_margin="10dp"
             android:background="@drawable/arrondir"
             android:text="ToggleButton" />
 
@@ -129,9 +142,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFB6C1"
-        android:gravity="center_vertical"
-        android:layout_marginTop="16dp">
+        android:background="@drawable/border_radius"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_vertical">
 
         <ImageView
             android:id="@+id/garageimage"
@@ -142,21 +158,21 @@
             tools:visibility="gone" />
 
 
-
         <TextView
 
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:textColor="#FFFFFF"
-            android:text="Garage" />
+            android:text="Garage"
+            android:textColor="#FFFFFF" />
 
         <ToggleButton
             android:id="@+id/garage"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical|end"
+            android:layout_margin="10dp"
             android:background="@drawable/arrondir"
             android:text="ToggleButton" />
 
